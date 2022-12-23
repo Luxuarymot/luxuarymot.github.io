@@ -144,10 +144,15 @@ section{
     margin-right: 50px;
 }
 .card:nth-child(2){
-    transform: perspective(190px) rotateX(2deg);
+    transform: perspective(190px) rotateX(8deg);
     margin-right: 50px;
 }
 .card:nth-child(3){
+    transform: perspective(190px) rotateX(8deg);
+    margin-right: 50px;
+}
+
+.card:nth-child(4){
     transform: perspective(190px) rotateX(8deg);
 }
 
@@ -173,6 +178,11 @@ section{
     }
 
     .card:nth-child(3){
+        margin: 0;
+    }
+
+    .card:nth-child(4){
+        margin: 0;
     }
 
 }
@@ -188,6 +198,10 @@ section{
    .container .card:nth-child(1) {
        margin-right: 60px;
    }
+
+   .container .card:nth-child(3) {
+    margin-right: 60px;
+}
 }
 
 @media  screen and (max-width: 537px) {
@@ -204,6 +218,10 @@ section{
     }
 
     .container .card:nth-child(3){
+        margin-top: 100px;
+    }
+
+    .container .card:nth-child(4){
         margin-top: 100px;
     }
 
